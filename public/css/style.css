@@ -1,0 +1,65 @@
+body{    
+    padding: 5%;
+    font-family: inherit;
+}
+.td_field_wrao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.td_field_wrao input{
+    width: 80%;
+}
+.td_container table{
+	border: 2px solid #dddddd;
+}
+
+table i{
+    cursor:pointer;
+}
+
+.thd1{
+    background-color: #252535;
+    color: #fff;
+}
+.thd2{
+    background-color: #d5e4d5;
+    color: #252535;
+    font-size: 16px;
+    border-bottom: 4px solid #252535;
+}
+.td_field_wrao button{
+    background: #252535;
+    font-weight: bold;
+}
+.td_container {
+    border: 1px solid #f9f9f9;
+    box-shadow: 1px 2px 8px 7px #e8f1e8;
+    padding: 22px;
+}
+h1.todo_heading {
+    text-align: center;
+    margin-bottom: 2%;
+    color: #f9f9f9;
+    text-shadow: 2px 2px 4px #252535;
+}
+@media only screen and (max-width: 1024px) {
+    .td_field_wrao input{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .td_field_wrao{
+        display: grid;
+        justify-content: space-around;
+        text-align: center;
+    }    
+    .td_field_wrao input{
+        width: 100%;
+    }
+    .td_field_wrao button{
+        margin-top:2%;
+    }
+}
+
