@@ -7,7 +7,7 @@ Configure .env file with your database credentials
 
 Run the following command in cmd
 
-```bash
+```
 https://github.com/rashmipriya2014/to-do.git
 
 cd to-do
